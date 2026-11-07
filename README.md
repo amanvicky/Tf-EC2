@@ -18,10 +18,10 @@ resource "aws_instance" "web" {
 }
 ```
 
-> ⚠️ Historical note: early commits (2022) contained course exercise SSH keys. The repo was **made private in Nov 2026**; the corresponding keypairs should be revoked on the AWS side regardless.
-
 Prerequisites: AWS account + `aws configure`, Terraform >= 1.0.
 
 ```bash
 terraform init && terraform plan && terraform apply
 ```
+
+Pairs with [cloudformation-practice](https://github.com/amanvicky/cloudformation-practice) — the same infrastructure, two IaC philosophies.
